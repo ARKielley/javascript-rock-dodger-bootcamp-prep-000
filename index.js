@@ -35,9 +35,9 @@ function checkCollision(rock) {
 function createRock(x) {
   const rock = document.createElement('div')
   rock.className = "rock"
-  //console.log(`${rock.className} classed`)
+  console.log(`${rock.className} classed`)
   rock.style.left = `${x}px`
-   //console.log(`rock placed`)
+  console.log(`rock placed at ${rock.style.left}`)
   // Hmmm, why would we have used `var` here?
   var top = rock.style.top = 0;
    GAME.appendChild(rock)
